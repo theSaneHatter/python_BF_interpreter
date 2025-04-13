@@ -3,17 +3,17 @@
 ## Useage: 
 Inside of `interpreter.py`, exacute `eval_bf()` on bf code. 
 Example: 
- <pre> ``` 
+ <pre> 
  print(eval_bf('++++++++[>++++++++++<-]>+++.')) 
- ``` </pre> 
+  </pre> 
 prints:
-<pre> ```
+<pre>
 S
 Output:
 S
-```</pre>
+</pre>
 
-(the first 'S' is printed beause all ```.```'s also print to the terminal.)
+(the first 'S' is printed beause all `.`'s also print to the terminal.)
 
 ```
 
