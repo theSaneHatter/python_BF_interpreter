@@ -13,7 +13,7 @@ Output:
 S
 </pre>
 
-(the first 'S' is printed beause all `.`'s also print to the terminal.)
+(the first 'S' is printed beause all `.`s also print to the terminal.)
 
 ```
 
