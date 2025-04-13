@@ -6,7 +6,7 @@ code = '''
 >++++++++[<+++++++++>-]<.>++++[<+++++++>-]<+.+++++++..+++.>>++++++[<+++++++>-]<+
 +.------------.>++++++[<+++++++++>-]<+.<.+++.------.--------.>>>++++[<++++++++>-
 ]<+.
-''' #hello world
+''' # hello world
 
 def bf_b(m,p,pl,cd,o):
     p -=1
@@ -62,7 +62,7 @@ def bf_c(m,p,pl,cd,o):
     return m,p,pl+1,o
 
 code = list(code)
-memsize = 1000 # in bytes
+memsize = 1000 # In bytes
 def eval_bf(code, memsize=1000):
     eval_output = ''
     code = list(code)
